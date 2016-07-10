@@ -1,10 +1,10 @@
 {
   "name": "find-music",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/index.js",
   "bin": {
-    "find-music": "bin/find-music --keywords"
+    "find-music": "bin/find-music"
   },
   "scripts": {
       "init": "npm install"
