@@ -4,5 +4,5 @@
 # 开始
 
 - install node 4.0+
-- npm install
-- node index.js --keywords 歌曲名
+- sudo npm install find-music -g
+- find-music 歌曲名
