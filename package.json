@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "bin": {
-    "find-music": "bin/find-music"
+    "find-music": "bin/find-music --keywords"
   },
   "scripts": {
       "init": "npm install"
