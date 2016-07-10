@@ -43,6 +43,8 @@ request.get(qqUrl, function(error, response, body){
                             if(songs.length){
                                 var neteaseLink = `http://music.163.com/#/song?id=${songs[0].id}`;
                                 console.log('netease',neteaseLink);
+                            }else{
+                                console.log('null');
                             }
                         });
                     }
