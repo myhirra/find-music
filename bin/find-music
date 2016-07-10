@@ -4,4 +4,4 @@
 
 var argv = require('minimist')(process.argv.slice(2));
 
-require('../lib/index.js')(argv.keywords);
+require('../lib/index.js')(argv._[0]);
